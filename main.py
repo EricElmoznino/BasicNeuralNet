@@ -44,7 +44,7 @@ def numpy_to_csv(input, label, file_name):
 # dataset and the sequence predictor was trained on the PTB dataset. To run and experiment,
 # download the datasets and format them appropriately (according to the 'reader' functions
 # above that are fed to the net during training), then uncomment the block corresponding
-# to the model you want to train.
+# to the model you want to train. 
 
 # neural_net = Classifiers.BasicClassifier('BasicClassifier', 784, 10, overwrite=True)
 # neural_net.train('train.csv', string_to_params)
